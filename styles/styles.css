@@ -15,11 +15,11 @@ body{
 h2{
     font-weight: 700;
     font-size: 24px;
-    margin-top: 87px;
+    margin-top: 70px;
     color: #3A3A3A;
 }
 nav{
-    margin-top: 87px;
+    margin-top: 70px;
     margin-right: 120px;
 }
 a{
@@ -29,14 +29,40 @@ a{
     
 }
 .header-main{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+    margin-left: 100px;
+}
+.text-box{
+    margin-top: 60px;
     width: 582px;
     height: 270px;
-    margin-top: 100px;
-    margin-left: 100px;
 }
 h1{
     font-weight: 900;
     font-size: 52px;
     color: #3A3A3A;
     margin-bottom: 0;
+}
+.header-info{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.prebook{
+    display: flex;
+    justify-content: center;
+    border-radius: 41px;
+    padding: 10px 24px;
+    width: 196px;
+    background-color: #E02C6D;
+    gap: 8px;
+    color: #FFFFFF;
+    font-size: large;
+    font-weight: 700;
+}
+.header-photo{
+    width: 440px;
+    height: 414px;
+    margin-top: 80px;
 }
