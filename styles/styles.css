@@ -1,0 +1,29 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ------------------------------------------------------
+
+                        Header Section
+
+-----------------------------------------------------------*/
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 87px;
+    margin-left: 120px;
+}
+nav{
+    margin-top: 95px;
+    margin-right: 120px;
+}
+a{
+    text-decoration: none;
+    color: #3A3A3A;
+    margin-left: 34px;
+    
+}
