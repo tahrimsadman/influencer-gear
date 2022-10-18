@@ -195,50 +195,63 @@ p{
     nav{
         display: none;
     }
+    h2{
+        margin-top: 20px;
+    }
     .header,.header-main{
         display: flex;
         justify-content: center;
         margin: 20px;
     }
+    .header-photo{
+        margin-top: 20px;
+        width: 100%;
+    }
     .header-main{
         display: flex;
         flex-direction: column-reverse;
     }
-    h1{
-        font-size: x-large;
-    }
+    
     .text-box{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
         width: 420px;
         height: 300px;
     }
+    h1{
+        display: flex;
+        
+        font-size: xx-large;
+    }
     .supporter-section{
-        margin-top: 280px;
+        margin-top: 200px;
         width: 100%;
         
     }
     .logos{
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
-        margin-left: 20px;
+        margin-left: 50px;
         width: 400px;
-        height: 160px;
+        
     }
-    .supporter-section,.header-section,.popular-section,.final-section{
+    .supporter-section,.header-section,.popular-section,.final-section,.footer-section{
         position: relative;
     }
+    
     .collections{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-left: 13px;
         margin-right: 0px;
+        
     }
     .last-section{
         display: flex;
         flex-direction: column;
-        margin-top: 50px;
+        
         margin-left: 20px;
         margin-right: 0px;
     }
@@ -246,4 +259,5 @@ p{
         width: 400px;
         height: 250px;
     }
+    
 }
