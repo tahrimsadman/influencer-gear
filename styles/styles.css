@@ -216,7 +216,7 @@ p{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 420px;
+        width: 380px;
         height: 300px;
     }
     h1{
@@ -233,8 +233,8 @@ p{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin-left: 50px;
-        width: 400px;
+        margin-left: 20px;
+        width: 380px;
         
     }
     .supporter-section,.header-section,.popular-section,.final-section,.footer-section{
@@ -256,7 +256,7 @@ p{
         margin-right: 0px;
     }
     .last-texts{
-        width: 400px;
+        width: 380px;
         height: 250px;
     }
     
