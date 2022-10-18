@@ -210,11 +210,13 @@ p{
     }
     .supporter-section{
         margin-top: 280px;
+        width: 100%;
         
     }
     .logos{
         display: flex;
-        margin-left: 0px;
+        flex-wrap: wrap;
+        margin-left: 50px;
         width: 400px;
         height: 160px;
     }
@@ -231,7 +233,7 @@ p{
         display: flex;
         flex-direction: column;
         margin-top: 50px;
-        margin-left: 0px;
+        margin-left: 35px;
         margin-right: 0px;
     }
     .last-texts{
