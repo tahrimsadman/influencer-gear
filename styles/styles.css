@@ -195,14 +195,47 @@ p{
     nav{
         display: none;
     }
+    .header,.header-main{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
     .header-main{
         display: flex;
         flex-direction: column-reverse;
-        width: 100%;
-        margin: none;
-        padding: none;
     }
-    .header-photo, img{
-        width: 90%;
+    .text-box{
+        width: 400px;
+        height: 222px;
+    }
+    .supporter-section{
+        margin-top: 280px;
+        
+    }
+    .logos{
+        display: flex;
+        margin-left: 0px;
+        width: 400px;
+        height: 160px;
+    }
+    .supporter-section,.header-section,.popular-section,.final-section{
+        position: relative;
+    }
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 13px;
+        margin-right: 0px;
+    }
+    .last-section{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .last-texts{
+        width: 400px;
+        height: 250px;
     }
 }
