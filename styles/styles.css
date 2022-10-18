@@ -214,6 +214,7 @@ p{
     
     .text-box{
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         width: 380px;
@@ -251,8 +252,7 @@ p{
     .last-section{
         display: flex;
         flex-direction: column;
-        
-        margin-left: 20px;
+        margin-left: 0px;
         margin-right: 0px;
     }
     .last-texts{
