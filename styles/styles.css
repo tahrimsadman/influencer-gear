@@ -230,7 +230,7 @@ p{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin-left: 0px;
+        margin-left: 10px;
         width: 380px;
     }
     .supporter-section,.header-section,.popular-section,.final-section,.footer-section{
