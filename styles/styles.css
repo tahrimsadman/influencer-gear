@@ -191,7 +191,7 @@ p{
                         RESPONSIVE
 
 ------------------------------------------------------------*/
-@media screen and (max-width: 460px){
+@media screen and (max-width: 560px){
     nav{
         display: none;
     }
