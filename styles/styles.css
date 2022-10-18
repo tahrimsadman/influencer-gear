@@ -204,9 +204,15 @@ p{
         display: flex;
         flex-direction: column-reverse;
     }
+    h1{
+        font-size: x-large;
+    }
     .text-box{
-        width: 400px;
-        height: 222px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 420px;
+        height: 300px;
     }
     .supporter-section{
         margin-top: 280px;
