@@ -222,7 +222,7 @@ p{
     .logos{
         display: flex;
         flex-wrap: wrap;
-        margin-left: 50px;
+        margin-left: 20px;
         width: 400px;
         height: 160px;
     }
@@ -239,7 +239,7 @@ p{
         display: flex;
         flex-direction: column;
         margin-top: 50px;
-        margin-left: 35px;
+        margin-left: 20px;
         margin-right: 0px;
     }
     .last-texts{
