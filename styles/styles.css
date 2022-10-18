@@ -186,3 +186,17 @@ p{
 .footer-discription{
     color: #FFFFFF;
 }
+/* ---------------------------------------------------------
+
+                        RESPONSIVE
+
+------------------------------------------------------------*/
+@media screen and (max-width: 360px){
+    nav{
+        display: none;
+    }
+    .header-main{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
